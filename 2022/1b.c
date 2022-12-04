@@ -42,5 +42,6 @@ int main(void) {
 	}
 	printf("%i\n", max[0] + max[1] + max[2]);
 	printf("%f\n", (double)(clock() - t) / CLOCKS_PER_SEC);
+	fclose(file);
 	return 0;
 }
